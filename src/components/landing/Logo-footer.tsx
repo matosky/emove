@@ -1,7 +1,6 @@
-import React from 'react'
 import { StyledLogoFooter } from './styles/Logo-footer-styled'
-const orange = require('../landing/Assets/orange.png')
-const road = require('../landing/Assets/road-white.png')
+import orange from '../landing/Assets/orange.png';
+import road from '../landing/Assets/road-white.png';
 
 const Logo = () => {
   return (

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Chart } from 'react-google-charts'
 import { StyledGraph } from './styles/graph.styled'
 import { FaCaretUp } from 'react-icons/fa'
@@ -7,6 +6,8 @@ interface BarChartProps {
   data: Array<[string, number]>
   title: string
 }
+
+
 
 const BarChart: React.FC<BarChartProps> = ({ data, title }) => {
   const chartData = [

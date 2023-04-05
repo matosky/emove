@@ -1,7 +1,6 @@
-import React from 'react'
-import { StyledLogo } from './styles/Logo.styled'
-const orange = require("../landing/Assets/orange.png")
-const road = require("../landing/Assets/road-white.png")
+import { StyledLogo } from './styles/Logo.styled';
+import orange from "../landing/Assets/orange.png";
+import road from "../landing/Assets/road-white.png";
 
 
 

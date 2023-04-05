@@ -1,6 +1,6 @@
 import Bus from './Bus'
 import { StyledLandingContent } from './styles/Landing-content-styled'
-const pointer = require("../landing/Assets/pointer.png")
+import pointer from "../landing/Assets/pointer.png";
 
 
 

@@ -1,7 +1,7 @@
 import { useNavigate} from 'react-router-dom'
 import { StyledButton } from './styles/button.styled';
 
-const Button = (props: {color: string, text: String, About: string, Login: String}) => {
+const Button = (props: {color: string, text: string, About: string, Login: string}) => {
   const navigate = useNavigate();
 
   const navigateToSignup = () => 

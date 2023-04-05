@@ -1,8 +1,8 @@
 import Logo from './Logo-footer'
 import { Styledfooter } from './styles/Landing-Bottom.styled';
-const insta = require("../landing/Assets/insta.png")
-const twitter = require("../landing/Assets/twitter.png")
-const youTube = require("../landing/Assets/youTube.png")
+import insta from "../landing/Assets/insta.png";
+import twitter from "../landing/Assets/twitter.png";
+import youTube from "../landing/Assets/youTube.png";
 
 
 const Footer = () => {
@@ -15,15 +15,12 @@ const Footer = () => {
         </div>
         <h1 className='title-footer'>E-Move</h1>
         <div className='row'>
-          {/* column1 */}
             <div className='col'>
               <p>About</p>
             </div>
-           {/* column2 */}
                        <div className='col'>
               <p>Privacy</p>
             </div>
-            {/* column3 */}
                         <div className='col'>
               <p>FAQ</p>
             </div>

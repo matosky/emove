@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyledBus } from './styles/Bus.styled'
-const bus = require("../landing/Assets/bus.png")
+import bus from "../landing/Assets/bus.png"
 
 
 const Bus = () => {
